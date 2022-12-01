@@ -1,4 +1,4 @@
-from aoc_2022_template import *
+from aoc_2022 import *
 import collections
 import math
 #import networkx as nx

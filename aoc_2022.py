@@ -14,7 +14,7 @@ def get_example(day,offset=0):
     return req.text.split('<pre><code>')[offset+1].split('</code></pre>')[0]
 
 def submit(day, level, answer):
-    input(f'You are about to submit the follwing answer:\n>>>>>>>>>>>>>>>>> {answer}\nPress enter to continue or Ctrl+C to abort.')
+    input(f'You are about to submit the following answer:\n>>>>>>>>>>>>>>>>> {answer}\nPress enter to continue or Ctrl+C to abort.')
     data = {
       'level': str(level),
       'answer': str(answer)

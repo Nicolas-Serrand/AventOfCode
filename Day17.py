@@ -131,7 +131,7 @@ def solve(N):
 def part1():
     submit(DAY, 1, solve(2022))
 def part2():
-    submit(DAY, 2, solve(100_000_0000_000))
+    submit(DAY, 2, solve(1_000_000_000_000))
 
 if __name__ == "__main__":
     part1()
